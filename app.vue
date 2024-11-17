@@ -1,9 +1,9 @@
 <template>
-  <div class="centerContent font-onest">
+  <div class="centerContent font-poppins">
     <NuxtLayout>
       <NuxtLoadingIndicator
         :height="5"
-        color="repeating-linear-gradient(to right,#504edd 0%,#cad6fb 50%,#504edd 100%)"
+        color="repeating-linear-gradient(to right,#3b9ed7 0%,#c3e0f4 50%,#3b9ed7 100%)"
       />
       <NuxtPage />
       <div
