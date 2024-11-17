@@ -18,5 +18,8 @@
         "titleBar.inactiveBackground": "#3b9ed799",
         "titleBar.inactiveForeground": "#15202b99"
     },
-    "peacock.color": "#3B9ED7"
+    "peacock.color": "#3B9ED7",
+    "cSpell.words": [
+        "Syncfusion"
+    ]
 }

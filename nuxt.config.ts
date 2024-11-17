@@ -12,10 +12,11 @@ export default defineNuxtConfig({
   },
 
   modules: ["@nuxt/icon"],
-
+  plugins: ["~/plugins/syncfusion.js"],
   runtimeConfig: {
     public: {
       mode: process.env.MODE,
+      syncfusionLicense: process.env.SYNCFUSION_LICENSE,
     },
   },
 });

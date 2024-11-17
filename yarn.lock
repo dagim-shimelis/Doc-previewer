@@ -1279,6 +1279,41 @@
   resolved "https://registry.yarnpkg.com/@sindresorhus/merge-streams/-/merge-streams-2.3.0.tgz#719df7fb41766bc143369eaa0dd56d8dc87c9958"
   integrity sha512-LtoMMhxAlorcGhmFYI+LhPgbPZCkgP6ra1YL604EeF6U98pLlQ3iWIGMdWSC+vWmPBWBNgmDBAhnAobLROJmwg==
 
+"@syncfusion/ej2-base@~27.2.2":
+  version "27.2.2"
+  resolved "https://registry.yarnpkg.com/@syncfusion/ej2-base/-/ej2-base-27.2.2.tgz#5f95984041ad38333ae473ec65fe143764314f19"
+  integrity sha512-bc/CTAC4BYenD2aw60h2A5wqM5Bzne2QGtAUHR25cSNMtPApAkQ67/unChlE28ZV5eSW3tVfw94bLH2q2tnmRA==
+  dependencies:
+    "@syncfusion/ej2-icons" "~27.2.2"
+
+"@syncfusion/ej2-icons@~27.2.2":
+  version "27.2.2"
+  resolved "https://registry.yarnpkg.com/@syncfusion/ej2-icons/-/ej2-icons-27.2.2.tgz#453f1e848728217a81c5f5e82b2e01b6e96c21e9"
+  integrity sha512-Jl4Dvu+rocNDmY2wEwcwyYlGWJ2xRf8izdnARffR5Lu41OjZIh8fgo4fU2lXHdbqNXApm7DeItDY4soBtjgDCQ==
+
+"@syncfusion/ej2-layouts@27.2.2":
+  version "27.2.2"
+  resolved "https://registry.yarnpkg.com/@syncfusion/ej2-layouts/-/ej2-layouts-27.2.2.tgz#badcc82e6ab0a46897990d90fd0a13ce3e795400"
+  integrity sha512-Fs9JJiNgK5slfaxY2n5bj7DyWtCUtdps4IhoBq9K2KzVscUc0jorzsiIP54abdKWBb37uoh26dYwZ8xwQjVvFg==
+  dependencies:
+    "@syncfusion/ej2-base" "~27.2.2"
+
+"@syncfusion/ej2-vue-base@~27.2.2":
+  version "27.2.2"
+  resolved "https://registry.yarnpkg.com/@syncfusion/ej2-vue-base/-/ej2-vue-base-27.2.2.tgz#9f46832d84df4643173d0d2f41e4923bd072e5fa"
+  integrity sha512-yeKS6olDpluIn9fiUQpz6B5Hw2zHLztrYFAS0abcagtIrVx5q508UemNexvyqS/l9SjYCeBBGjnM1MJts/xNZg==
+  dependencies:
+    "@syncfusion/ej2-base" "~27.2.2"
+
+"@syncfusion/ej2-vue-layouts@^27.2.2":
+  version "27.2.2"
+  resolved "https://registry.yarnpkg.com/@syncfusion/ej2-vue-layouts/-/ej2-vue-layouts-27.2.2.tgz#9dc1a57356eb1ca8c89bfbe710c578ddeeddcc32"
+  integrity sha512-5eA4I5yHX0q8613L5lIKHse1iILeky1OfMNL6gcAzbUk8mqIIPdDtd6M+Q9ka/Pk9FC/FYJ1gzhmjg12vzY/zg==
+  dependencies:
+    "@syncfusion/ej2-base" "~27.2.2"
+    "@syncfusion/ej2-layouts" "27.2.2"
+    "@syncfusion/ej2-vue-base" "~27.2.2"
+
 "@trysound/sax@0.2.0":
   version "0.2.0"
   resolved "https://registry.yarnpkg.com/@trysound/sax/-/sax-0.2.0.tgz#cccaab758af56761eb7bf37af6f03f326dd798ad"
