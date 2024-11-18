@@ -78,22 +78,3 @@ const openDoc = (data) => {
     </ejs-treeview>
   </div>
 </template>
-
-<style>
-.e-fullrow,
-.e-fullsrow {
-  @apply ml-2;
-}
-.e-list-text {
-  @apply font-poppins text-gray-800 hover:!text-primary-500;
-}
-
-.e-active .e-list-text {
-  @apply !text-primary-500;
-}
-
-.e-active .e-fullrow,
-.e-active .e-fullsrow {
-  @apply !bg-primary-100 !rounded-md !border-0;
-}
-</style>

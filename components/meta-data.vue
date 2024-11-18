@@ -36,14 +36,14 @@ onMounted(() => {
     <div class="flex flex-col w-[50px] h-full">
       <button
         @click="select('metadata')"
-        class="btn"
+        class="metaBtn"
         :class="selected == 'metadata' ? 'selected' : ''"
       >
         Meta Data
       </button>
       <button
         @click="select('history')"
-        class="btn"
+        class="metaBtn"
         :class="selected == 'history' ? 'selected' : ''"
       >
         History
@@ -51,20 +51,3 @@ onMounted(() => {
     </div>
   </div>
 </template>
-
-<style scoped>
-.btn {
-  @apply border-b-4 border-transparent mb-20 transform rotate-90 origin-center translate-y-[100%]  bg-white py-2 text-sm font-medium text-primary-500 whitespace-nowrap;
-}
-
-.btn.selected {
-  @apply border-primary-200 text-primary-700;
-}
-.btn.selected:hover {
-  @apply border-primary-200;
-}
-
-.btn:hover {
-  @apply border-primary-50;
-}
-</style>

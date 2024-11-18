@@ -1,5 +1,25 @@
 @import url("https://fonts.googleapis.com/css2?family=Onest:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
+/* ------------------------- syncfusion style import ------------------------ */
+/* Common */
+@import "./node_modules/@syncfusion/ej2-base/styles/material.css";
+@import "./node_modules/@syncfusion/ej2-dropdowns/styles/material.css";
+
+/* Splitter */
+@import "./node_modules/@syncfusion/ej2-vue-layouts/styles/material.css";
+
+/* TreeView */
+@import "./node_modules/@syncfusion/ej2-buttons/styles/material.css";
+@import "./node_modules/@syncfusion/ej2-vue-navigations/styles/material.css";
+
+/* Folder */
+@import "./node_modules/@syncfusion/ej2-inputs/styles/material.css";
+@import "./node_modules/@syncfusion/ej2-navigations/styles/material.css";
+@import "./node_modules/@syncfusion/ej2-popups/styles/material.css";
+@import "./node_modules/@syncfusion/ej2-splitbuttons/styles/material.css";
+@import "./node_modules/@syncfusion/ej2-lists/styles/material.css";
+@import "./node_modules/@syncfusion/ej2-pdfviewer/styles/material.css";
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -28,4 +48,43 @@ html {
 
 ::-webkit-scrollbar-thumb:hover {
   @apply bg-primary-400;
+}
+
+#app {
+  margin: 60px auto;
+  max-width: 700px;
+}
+
+/* -------------------------------- Spliiter -------------------------------- */
+.e-fullrow,
+.e-fullsrow {
+  @apply ml-2;
+}
+.e-list-text {
+  @apply font-poppins text-gray-800 hover:!text-primary-500;
+}
+
+.e-active .e-list-text {
+  @apply !text-primary-500;
+}
+
+.e-active .e-fullrow,
+.e-active .e-fullsrow {
+  @apply !bg-primary-100 !rounded-md !border-0;
+}
+
+/* ------------------------------ Metadata Page ----------------------------- */
+.metaBtn {
+  @apply border-b-4 border-transparent mb-20 transform rotate-90 origin-center translate-y-[100%]  bg-white py-2 text-sm font-medium text-primary-500 whitespace-nowrap;
+}
+
+.metaBtn.selected {
+  @apply border-primary-200 text-primary-700;
+}
+.metaBtn.selected:hover {
+  @apply border-primary-200;
+}
+
+.metaBtn:hover {
+  @apply border-primary-50;
 }
