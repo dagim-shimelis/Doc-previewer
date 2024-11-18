@@ -38,6 +38,7 @@
 @import "./node_modules/@syncfusion/ej2-vue-navigations/styles/material.css";
 
 /* Folder */
+@import "./node_modules/@syncfusion/ej2-inputs/styles/material.css";
 @import "./node_modules/@syncfusion/ej2-navigations/styles/material.css";
 @import "./node_modules/@syncfusion/ej2-popups/styles/material.css";
 @import "./node_modules/@syncfusion/ej2-splitbuttons/styles/material.css";

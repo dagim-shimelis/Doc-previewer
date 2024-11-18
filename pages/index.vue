@@ -20,7 +20,6 @@ const openDoc = (path) => {
           min="340px"
           max="500px"
           size="340px"
-          :collapsible="true"
         ></e-pane>
         <e-pane content="#middle-pane-content"></e-pane>
         <e-pane

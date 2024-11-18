@@ -26,7 +26,7 @@ onMounted(() => {
 <template>
   <div class="flex items-start gap-x-0">
     <div
-      class="border m-2 rounded-xl flex flex-col items-center justify-center gap-y-4 h-[830px] opacity-50 text-center w-full"
+      class="border m-2 px-2 rounded-xl flex flex-col items-center justify-center gap-y-4 h-[830px] opacity-50 text-center w-full"
     >
       <img :src="message.icon" class="w-10 h-10" alt="" />
       <p class="font-semibold font-poppins text-gray-600">
