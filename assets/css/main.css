@@ -73,6 +73,79 @@ html {
   @apply !bg-primary-100 !rounded-md !border-0;
 }
 
+.e-splitter {
+  margin: 0 auto;
+}
+.e-pane {
+  text-align: start;
+  align-items: start;
+  display: grid;
+  height: 100%;
+}
+
+/*  split bar color */
+.e-splitter .e-split-bar.e-split-bar-horizontal {
+  background: #8dc8ec80;
+}
+
+/* split bar color in hover and active state */
+.e-splitter .e-split-bar.e-split-bar-horizontal.e-split-bar-hover,
+.e-splitter .e-split-bar.e-split-bar-horizontal.e-split-bar-active {
+  background: #3b9ed7;
+}
+
+/*  split bar resize handle color */
+.e-splitter .e-split-bar.e-split-bar-horizontal .e-resize-handler {
+  color: #8dc8ec;
+}
+
+/*  split bar resize handle color in hover and active state */
+.e-splitter
+  .e-split-bar.e-split-bar-horizontal.e-split-bar-hover
+  .e-resize-handler,
+.e-splitter
+  .e-split-bar.e-split-bar-horizontal.e-split-bar-active
+  .e-resize-handler {
+  color: #3b9ed7;
+}
+
+/* split bar arrows */
+.e-splitter
+  .e-split-bar.e-split-bar-horizontal.e-split-bar-hover
+  .e-navigate-arrow.e-arrow-left::before,
+.e-splitter
+  .e-split-bar.e-split-bar-horizontal.e-split-bar-active
+  .e-navigate-arrow.e-arrow-left::before,
+.e-splitter
+  .e-split-bar.e-split-bar-horizontal.e-split-bar-hover
+  .e-navigate-arrow.e-arrow-left::after,
+.e-splitter
+  .e-split-bar.e-split-bar-horizontal.e-split-bar-active
+  .e-navigate-arrow.e-arrow-left::after,
+.e-splitter
+  .e-split-bar.e-split-bar-horizontal.e-split-bar-hover
+  .e-navigate-arrow.e-arrow-right::before,
+.e-splitter
+  .e-split-bar.e-split-bar-horizontal.e-split-bar-active
+  .e-navigate-arrow.e-arrow-right::before,
+.e-splitter
+  .e-split-bar.e-split-bar-horizontal.e-split-bar-hover
+  .e-navigate-arrow.e-arrow-right::after,
+.e-splitter
+  .e-split-bar.e-split-bar-horizontal.e-split-bar-active
+  .e-navigate-arrow.e-arrow-right::after {
+  background-color: #8dc8ec;
+}
+
+/* split bar arrows - circular border */
+.e-splitter
+  .e-split-bar.e-split-bar-horizontal.e-split-bar-hover
+  .e-navigate-arrow.e-arrow-left,
+.e-splitter
+  .e-split-bar.e-split-bar-horizontal.e-split-bar-hover
+  .e-navigate-arrow.e-arrow-right {
+  border-color: #3b9ed7;
+}
 /* ------------------------------ Metadata Page ----------------------------- */
 .metaBtn {
   @apply border-b-4 border-transparent mb-20 transform rotate-90 origin-center translate-y-[100%]  bg-white py-2 text-sm font-medium text-primary-500 whitespace-nowrap;
