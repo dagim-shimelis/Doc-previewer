@@ -9,12 +9,11 @@ const select = (item) => {
   switch (item) {
     case "metadata":
       message.value.text = "Meta Data for the document";
-      message.value.icon = "/icons/icomoon-free--file-gray-pdf.png";
+      message.value.icon = "/icons/carbon--data-2.png";
       break;
     case "history":
       message.value.text = "History of the document";
       message.value.icon = "/icons/fluent--history-20-regular.png";
-
       break;
   }
 };
@@ -29,7 +28,7 @@ onMounted(() => {
     <div
       class="border m-2 rounded-xl flex flex-col items-center justify-center gap-y-4 h-[830px] opacity-50 text-center w-full"
     >
-      <img :src="message.icon" class="w-9 h-9" alt="" />
+      <img :src="message.icon" class="w-10 h-10" alt="" />
       <p class="font-semibold font-poppins text-gray-600">
         {{ message.text }}
       </p>
