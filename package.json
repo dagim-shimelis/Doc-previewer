@@ -12,6 +12,8 @@
   "dependencies": {
     "@nuxt/icon": "^1.5.1",
     "@syncfusion/ej2-vue-layouts": "^27.2.2",
+    "@syncfusion/ej2-vue-navigations": "^27.2.2",
+    "@syncfusion/ej2-vue-pdfviewer": "^27.2.2",
     "nuxt": "^3.13.0",
     "vue": "latest",
     "vue-router": "latest"
